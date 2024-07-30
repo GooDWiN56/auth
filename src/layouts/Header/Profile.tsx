@@ -21,7 +21,6 @@ import { removeUser } from "store/slices/userSlice";
 
 const Profile: FC<IProfile> = ({ user }) => {
   const dispatch = useAppDispatch();
-
   const settings = [
     {
       name: "Profile",

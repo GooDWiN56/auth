@@ -11,7 +11,9 @@ const ListMenu: FC<IListMenu> = ({ openMenu, name, items }) => {
   return (
     <>
       <List>
-        <Typography variant="h6">{openMenu && name}</Typography>
+        <Typography variant="h6" sx={{ px: 2 }}>
+          {openMenu && name}
+        </Typography>
         {items.map((item: IItemMenu, index: number) => (
           <ItemMenu
             key={index}

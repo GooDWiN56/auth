@@ -1,23 +1,24 @@
-import React from 'react'
+
 
 import { IconAddressBook, IconBrandHipchat, IconBuildingStore, IconCalendar, IconLayoutKanban, IconMailbox } from '@tabler/icons-react'
 
+const icons = {  IconAddressBook, IconBrandHipchat, IconBuildingStore, IconCalendar, IconLayoutKanban, IconMailbox };
 
 export const RoutersListMenu = [{
     name: "General",
     items: [
         {
-            icon: IconBuildingStore,
+            icon: icons.IconBuildingStore,
             path: "/",
             text: "Products"
         },
         {
-            icon: IconCalendar,
+            icon: icons.IconCalendar,
             path: "/",
             text: "Calendar"
         },
         {
-            icon: IconLayoutKanban,
+            icon: icons.IconLayoutKanban,
             path: "/",
             text: "Task board"
         }
@@ -27,17 +28,17 @@ export const RoutersListMenu = [{
     name: "Communication",
     items: [
         {
-            icon: IconAddressBook,
+            icon: icons.IconAddressBook,
             path: "/",
             text: "Contacts"
         },
         {
-            icon: IconMailbox,
+            icon: icons.IconMailbox,
             path: "/",
             text: "Email"
         },
         {
-            icon: IconBrandHipchat,
+            icon: icons.IconBrandHipchat,
             path: "/",
             text: "Chat"
         }

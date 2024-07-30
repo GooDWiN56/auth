@@ -2,19 +2,11 @@ import React, { FC } from "react";
 import { styled, Theme, CSSObject, useTheme } from "@mui/material/styles";
 import MuiDrawer from "@mui/material/Drawer";
 
-import List from "@mui/material/List";
-
 import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 import { DrawerHeader } from "../DrawerHeader";
 import { IListMenu, ISidebar } from "interfaces";
 import ListMenu from "./ListMenu";

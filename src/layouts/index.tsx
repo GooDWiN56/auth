@@ -21,7 +21,7 @@ const MainLayout: FC<IChildren> = ({ children }) => {
   const handleClose = () => {
     setOpen(false);
   };
-  const { email, photoURL } = useAuth();
+  const { photoURL } = useAuth();
   const photo = photoURL || "";
   return (
     <Box sx={{ display: "flex" }}>
